@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mF:\AWA TIAM\PROJETS SONATEL\projets\DIC3\Writer\src\main\scala\com\sonatel\yoonwi\launcher\Writer.scala:89:11: Unable to find encoder for type stored in a Dataset.  Primitive types (Int, String, etc) and Product types (case classes) are supported by importing spark.implicits._  Support for serializing other types will be added in future releases.[0m
+[0m[[0m[31merror[0m] [0m[0m      .map(r => GroupedVehicle(r.getString(0))).toDF("speed","latitude","longitude")[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
